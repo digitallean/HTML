@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Forms with HTML 5</title>
+</head>
+
+<body>
+
+  <form oninput="total.value=(nigths.valueAsNumber*99)">
+   
+    <lable>Full name: </lable>
+     <input type="text" id="full_name" name="full_name" placeholder="Jane Doe" required/>
+    <br><br>
+    
+    <lable>Email: </lable>
+      <input type="email" id="email" name="full_name" required/>
+    <br><br>
+    
+    <lable>Phone: </lable>
+      <input type="tel" id="phone_number" name="phone_number" required/>
+    <br><br>
+    
+    <lable>Arrial date: </lable>
+     <input type="date" id="arrial_dt" name="arrial_dt" required/>
+    <br><br> 
+    
+    <lable>Number of nigths (room are $99 per nigth): </lable>
+      <input type="number" id="nigths" name="nigths" value="1" min="1" max="30" required/>
+    <br><br>
+    
+    <label>Estimated total: </lable>
+     $<output id="total" name="total">99</output>.00
+    <br><br>
+    
+    <lable>Promo code:</lable>
+      <input type="text" id="promo" name="promocao" pattern="[A-Za-z0-9{6}" title="Promo codes consist of alphanumeric characters"/>
+
+      <input type="submit" value="Request Reservation"/>
+  </form>
+ 
+</body>
+</html>
