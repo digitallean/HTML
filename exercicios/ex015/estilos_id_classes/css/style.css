@@ -1,9 +1,9 @@
 .div1 h1{
-	color: red;
+	color: darkorchid;
 }
 
 .div2 h1{
-	color: orange;
+	color: yellowgreen;
 }
 
 /*
@@ -13,9 +13,9 @@ Ou...
 */
 
 #div1 h1{
-	color: red;
+	color:darkorchid;
 }
 
 #div2 h1{
-	color: orange;
+	color: yellowgreen;
 }
