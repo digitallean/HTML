@@ -1,13 +1,13 @@
 body {
-    background-color: lightgoldenrodyellow;
-    color: chocolate;
+    background-color: lightblue;
+    color: darkmagenta;
     font-size: 12pt;
     font-family: Arial;
     /* também é possível simplificar as duas linhas acima como font: 12pt Arial; */
 }
 
 h1 {
-    color: brown;
+    color: darkred;
 }
 
 a { /* configurações para o link, remove o sublinhado padrão */
@@ -16,10 +16,10 @@ a { /* configurações para o link, remove o sublinhado padrão */
 }
 
 a:visited { /* cor para um link que já foi acessado */
-    color: coral;
+    color: darkblue;
 }
 
 a:hover { /* cor para um link quando o usuário passar o mouse sobre ele */
-    color: black;
-    text-decoration: underline;
+    color: darkorange;
+    text-decoration: none;
 }
